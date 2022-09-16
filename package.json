@@ -8,6 +8,10 @@
     "lib",
     "public"
   ],
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  },
   "scripts": {
     "prepare": "husky install",
     "test": "npm run build && cross-env NODE_ENV=test jest && npm run lint",
@@ -93,9 +97,6 @@
     "url": "https://github.com/typicode/json-server/issues"
   },
   "homepage": "https://github.com/typicode/json-server",
-  "engines": {
-    "node": ">=12"
-  },
   "jest": {
     "testURL": "http://localhost/"
   }
