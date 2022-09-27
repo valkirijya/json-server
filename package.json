@@ -43,10 +43,10 @@
     "pluralize": "^8.0.0",
     "server-destroy": "^1.0.1",
     "update-notifier": "^5.1.0",
-    "yargs": "^17.0.1"
+    "yargs": "^17.0.1",
+    "@babel/cli": "^7.12.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.19.1",
     "@babel/preset-env": "^7.12.1",
